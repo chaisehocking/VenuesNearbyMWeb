@@ -3,9 +3,9 @@
     "apps": [ ],
     "details": [
       {
-        "appID": "KADQL6585N.com.shinetech.whatsnearby",
+        "appID": "KADQL6585N.com.shinetech.venuesnearby",
         "paths": [
-          "/venue*"
+          "/venue/*",
           "/search*"
         ]
       }
