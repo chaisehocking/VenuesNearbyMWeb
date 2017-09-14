@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [ ],
+    "details": [
+      {
+        "appID": "KADQL6585N.com.shinetech.whatsnearby",
+        "paths": [
+          "/venue*"
+          "/search*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+<div class="search">
+  <label>Search Location:</label> <input value="{{term}}" #searchTerm />
+  <button (click)="search(searchTerm.value);">
+    Search
+  </button>
+</div>
+
+<ul class="venues">
+  <li *ngFor="let item of items"
+  (click)="gotoDetail(item)">
+  <!-- <span class="badge">{{hero.id}}</span> -->
+    <div class="title"><span>{{item.venue.name}}</span></div>
+    <div class="image">
+    <img *ngIf="item.firstThumbnailPhotoURL() != null"
+    src="{{item.firstThumbnailPhotoURL()}}">
+    </div>
+  </li>
+</ul>

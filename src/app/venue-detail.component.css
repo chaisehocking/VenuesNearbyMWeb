@@ -1,0 +1,16 @@
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+
+.photo li {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.photo {
+  padding: 0px;
+}

@@ -1,0 +1,10 @@
+<div *ngIf="venue">
+    <h2>{{venue.name}}</h2>
+</div>
+
+<ul class ="photo" *ngIf="venue && venue.photos">
+  <li *ngFor="let photo of venue.photos.venuePhotos()">
+    <img *ngIf="photo.url() != null"
+    src="{{photo.url()}}">
+  </li>
+</ul>
